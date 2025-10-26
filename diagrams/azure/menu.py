@@ -2,7 +2,6 @@
 
 from . import _Azure
 
-
 class _Menu(_Azure):
     _type = "menu"
     _icon_dir = "resources/azure/menu"
@@ -10,6 +9,5 @@ class _Menu(_Azure):
 
 class Keys(_Menu):
     _icon = "keys.png"
-
 
 # Aliases

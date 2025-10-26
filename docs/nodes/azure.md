@@ -3,7 +3,7 @@ id: azure
 title: Azure
 ---
 
-Node classes list of azure provider.
+Node classes list of the azure provider.
 
 ## azure.aimachinelearning
 
@@ -253,6 +253,9 @@ Node classes list of azure provider.
 
 ## azure.compute
 
+
+<img width="30" src="/img/resources/azure/compute/aks-automatic.png" alt="AksAutomatic" style="float: left; padding-right: 5px;" >
+**diagrams.azure.compute.AksAutomatic**
 
 <img width="30" src="/img/resources/azure/compute/app-services.png" alt="AppServices" style="float: left; padding-right: 5px;" >
 **diagrams.azure.compute.AppServices**
@@ -1001,6 +1004,15 @@ Node classes list of azure provider.
 ## azure.hybridmulticloud
 
 
+<img width="30" src="/img/resources/azure/hybridmulticloud/arc-data-services.png" alt="ArcDataServices" style="float: left; padding-right: 5px;" >
+**diagrams.azure.hybridmulticloud.ArcDataServices**
+
+<img width="30" src="/img/resources/azure/hybridmulticloud/arc-kubernetes.png" alt="ArcKubernetes" style="float: left; padding-right: 5px;" >
+**diagrams.azure.hybridmulticloud.ArcKubernetes**
+
+<img width="30" src="/img/resources/azure/hybridmulticloud/arc-machines.png" alt="ArcMachines" style="float: left; padding-right: 5px;" >
+**diagrams.azure.hybridmulticloud.ArcMachines**
+
 <img width="30" src="/img/resources/azure/hybridmulticloud/azure-operator-5g-core.png" alt="AzureOperator5GCore" style="float: left; padding-right: 5px;" >
 **diagrams.azure.hybridmulticloud.AzureOperator5GCore**
 
@@ -1084,6 +1096,12 @@ Node classes list of azure provider.
 
 <img width="30" src="/img/resources/azure/identity/enterprise-applications.png" alt="EnterpriseApplications" style="float: left; padding-right: 5px;" >
 **diagrams.azure.identity.EnterpriseApplications**
+
+<img width="30" src="/img/resources/azure/identity/entra-connect-health.png" alt="EntraConnectHealth" style="float: left; padding-right: 5px;" >
+**diagrams.azure.identity.EntraConnectHealth**
+
+<img width="30" src="/img/resources/azure/identity/entra-connect-sync.png" alt="EntraConnectSync" style="float: left; padding-right: 5px;" >
+**diagrams.azure.identity.EntraConnectSync**
 
 <img width="30" src="/img/resources/azure/identity/entra-connect.png" alt="EntraConnect" style="float: left; padding-right: 5px;" >
 **diagrams.azure.identity.EntraConnect**
@@ -1568,6 +1586,12 @@ Node classes list of azure provider.
 ## azure.ml
 
 
+<img width="30" src="/img/resources/azure/ml/ai-studio.png" alt="AIStudio" style="float: left; padding-right: 5px;" >
+**diagrams.azure.ml.AIStudio**
+
+<img width="30" src="/img/resources/azure/ml/applied-ai-services.png" alt="AppliedAIServices" style="float: left; padding-right: 5px;" >
+**diagrams.azure.ml.AppliedAIServices**
+
 <img width="30" src="/img/resources/azure/ml/azure-open-ai.png" alt="AzureOpenAI" style="float: left; padding-right: 5px;" >
 **diagrams.azure.ml.AzureOpenAI**
 
@@ -1597,6 +1621,9 @@ Node classes list of azure provider.
 
 <img width="30" src="/img/resources/azure/ml/machine-learning-studio-workspaces.png" alt="MachineLearningStudioWorkspaces" style="float: left; padding-right: 5px;" >
 **diagrams.azure.ml.MachineLearningStudioWorkspaces**
+
+<img width="30" src="/img/resources/azure/ml/openai.png" alt="Openai" style="float: left; padding-right: 5px;" >
+**diagrams.azure.ml.Openai**
 
 ## azure.mobile
 
@@ -1642,6 +1669,9 @@ Node classes list of azure provider.
 
 <img width="30" src="/img/resources/azure/monitor/log-analytics-workspaces.png" alt="LogAnalyticsWorkspaces" style="float: left; padding-right: 5px;" >
 **diagrams.azure.monitor.LogAnalyticsWorkspaces**
+
+<img width="30" src="/img/resources/azure/monitor/logs.png" alt="Logs" style="float: left; padding-right: 5px;" >
+**diagrams.azure.monitor.Logs**
 
 <img width="30" src="/img/resources/azure/monitor/metrics.png" alt="Metrics" style="float: left; padding-right: 5px;" >
 **diagrams.azure.monitor.Metrics**

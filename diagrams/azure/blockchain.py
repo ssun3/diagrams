@@ -2,7 +2,6 @@
 
 from . import _Azure
 
-
 class _Blockchain(_Azure):
     _type = "blockchain"
     _icon_dir = "resources/azure/blockchain"
@@ -10,26 +9,15 @@ class _Blockchain(_Azure):
 
 class AbsMember(_Blockchain):
     _icon = "abs-member.png"
-
-
 class AzureBlockchainService(_Blockchain):
     _icon = "azure-blockchain-service.png"
-
-
 class AzureTokenService(_Blockchain):
     _icon = "azure-token-service.png"
-
-
 class BlockchainApplications(_Blockchain):
     _icon = "blockchain-applications.png"
-
-
 class Consortium(_Blockchain):
     _icon = "consortium.png"
-
-
 class OutboundConnection(_Blockchain):
     _icon = "outbound-connection.png"
-
 
 # Aliases

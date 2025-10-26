@@ -2,7 +2,6 @@
 
 from . import _Azure
 
-
 class _Mixedreality(_Azure):
     _type = "mixedreality"
     _icon_dir = "resources/azure/mixedreality"
@@ -10,10 +9,7 @@ class _Mixedreality(_Azure):
 
 class RemoteRendering(_Mixedreality):
     _icon = "remote-rendering.png"
-
-
 class SpatialAnchorAccounts(_Mixedreality):
     _icon = "spatial-anchor-accounts.png"
-
 
 # Aliases

@@ -2,50 +2,36 @@
 
 from . import _Azure
 
-
 class _Ml(_Azure):
     _type = "ml"
     _icon_dir = "resources/azure/ml"
 
 
+class AIStudio(_Ml):
+    _icon = "ai-studio.png"
+class AppliedAIServices(_Ml):
+    _icon = "applied-ai-services.png"
 class AzureOpenAI(_Ml):
     _icon = "azure-open-ai.png"
-
-
 class AzureSpeechService(_Ml):
     _icon = "azure-speech-service.png"
-
-
 class BatchAI(_Ml):
     _icon = "batch-ai.png"
-
-
 class BotServices(_Ml):
     _icon = "bot-services.png"
-
-
 class CognitiveServices(_Ml):
     _icon = "cognitive-services.png"
-
-
 class GenomicsAccounts(_Ml):
     _icon = "genomics-accounts.png"
-
-
 class MachineLearningServiceWorkspaces(_Ml):
     _icon = "machine-learning-service-workspaces.png"
-
-
 class MachineLearningStudioWebServicePlans(_Ml):
     _icon = "machine-learning-studio-web-service-plans.png"
-
-
 class MachineLearningStudioWebServices(_Ml):
     _icon = "machine-learning-studio-web-services.png"
-
-
 class MachineLearningStudioWorkspaces(_Ml):
     _icon = "machine-learning-studio-workspaces.png"
-
+class Openai(_Ml):
+    _icon = "openai.png"
 
 # Aliases

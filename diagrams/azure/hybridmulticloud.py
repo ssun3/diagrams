@@ -2,30 +2,26 @@
 
 from . import _Azure
 
-
 class _Hybridmulticloud(_Azure):
     _type = "hybridmulticloud"
     _icon_dir = "resources/azure/hybridmulticloud"
 
 
+class ArcDataServices(_Hybridmulticloud):
+    _icon = "arc-data-services.png"
+class ArcKubernetes(_Hybridmulticloud):
+    _icon = "arc-kubernetes.png"
+class ArcMachines(_Hybridmulticloud):
+    _icon = "arc-machines.png"
 class AzureOperator5GCore(_Hybridmulticloud):
     _icon = "azure-operator-5g-core.png"
-
-
 class AzureOperatorInsights(_Hybridmulticloud):
     _icon = "azure-operator-insights.png"
-
-
 class AzureOperatorNexus(_Hybridmulticloud):
     _icon = "azure-operator-nexus.png"
-
-
 class AzureOperatorServiceManager(_Hybridmulticloud):
     _icon = "azure-operator-service-manager.png"
-
-
 class AzureProgrammableConnectivity(_Hybridmulticloud):
     _icon = "azure-programmable-connectivity.png"
-
 
 # Aliases
